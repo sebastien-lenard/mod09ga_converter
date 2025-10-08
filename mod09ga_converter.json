@@ -1,0 +1,188 @@
+{
+  "file_variables": {
+    "state_1km_1": {
+      "input": {
+        "type": "uint16",
+        "nodata": 65535,
+        "min": 0,
+        "max": 57335
+      }
+    },
+    "SensorZenith_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -32767,
+        "min": 0,
+        "max": 18000,
+        "scale_factor": 0.01
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 180,
+        "scale_factor": 1
+      }
+    },
+    "SolarZenith_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -32767,
+        "min": 0,
+        "max": 18000,
+        "scale_factor": 0.01
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 180,
+        "scale_factor": 1
+      }
+    },
+    "SolarAzimuth_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -32767,
+        "min": -18000,
+        "max": 18000,
+        "scale_factor": 0.01
+      },
+      "output": {
+        "type": "int16",
+        "nodata": 32767,
+        "min": -180,
+        "max": 180,
+        "scale_factor": 1
+      }
+    },
+    "num_observations_500m": {
+      "input": {
+        "type": "int8",
+        "nodata": -1,
+        "min": 0,
+        "max": 127
+      }
+    },
+    "sur_refl_b01_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b02_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b03_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b04_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b05_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b06_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "sur_refl_b07_1": {
+      "input": {
+        "type": "int16",
+        "nodata": -28672,
+        "min": -100,
+        "max": 16000,
+        "scale_factor": 0.0001
+      },
+      "output": {
+        "type": "uint8",
+        "nodata": 255,
+        "min": 0,
+        "max": 160,
+        "scale_factor": 0.01
+      }
+    },
+    "QC_500m_1": {
+      "input": {
+        "type": "uint32",
+        "nodata": 787410671,
+        "min": 0,
+        "max": 4294966019
+      }
+    }
+  }
+}

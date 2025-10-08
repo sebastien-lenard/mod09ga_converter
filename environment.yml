@@ -1,0 +1,9 @@
+name: mod09ga_converter_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip:
+    - dotenv==0.9.9
+    - pyhdf==0.11.6
+
